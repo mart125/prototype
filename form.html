@@ -7,7 +7,20 @@
 <body>
     <button type="button" onclick="window.location.href='index.html'">Uitloggen</button>
     <button type="button" onclick="window.location.href='keuzeMenu.html'">Home</button>
-    <p>Voor meer informatie klik op de <b>(i)</b>.</p>
+    <p>Voor meer informatie klik op de <b id="info">(i)
+        <!-- <span id="infoText">click <button id="openPopup">here</button> for more info</span> -->
+        <span id="infoText">the info is not yet available to us.</span>
+    </b>.</p>
+    <!-- <div class="popup" id="popup">
+        <div class="overlay"></div>
+        <div class="popupcontent">
+            <h2>information</h2>
+            <p>the info is not yet available to us.</p>
+            <div class="controls">
+                <button class="close">X</button>
+            </div>
+        </div>
+    </div> -->
     <form>
         <div>
             <label for="Folder">Waar wil je je les opslaan:</label>
@@ -50,4 +63,5 @@
         <button type="button" onclick="window.location.href='evaluatie.html'">Beëindig je les</button>
     </form> 
 </body>
+    <script src='popup.js'></script>
 </html>

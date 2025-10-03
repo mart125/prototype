@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <button type="button" onclick="window.location.href='index.html'">Uitloggen</button>
+    <button type="button" onclick="window.location.href='keuzeMenu.html'">Home</button>
+    <p>Voor meer informatie klik op de <b>(i)</b>.</p>
+    <form>
+        <div>
+            <label for="Folder">Waar wil je je les opslaan:</label>
+            <br><select id="Folder" name="Folder">
+                <option value="" disable selected>Kies een jaargetijd</option>
+                <option value="Winter">Winter</option>
+                <option value="Lente">Lente</option>
+                <option value="Zomer">Zomer</option>
+                <option value="Hefst">Herfst</option>
+            </select>            
+        </div>
+        <div>
+            <label for="Welk vak">Welk vak: </label>
+            <br><input type="Text" name="WelkVak" id="WelkVak" placeholder="Kies een vak">
+        </div>
+        <div>
+            <label for="Leerdoel">Beschrijf wat je wil aanleren: </label>
+            <br><input type="Text" name="Leerdoel" id="Leerdoel" placeholder="Beschrijf je leerdoel">
+        </div>
+        <div>
+            <label for="Blikrichters">Geef hier aan waar je op wil focussen deze les: </label>
+            <br><input type="text" placeholder="Beschrijf hier je blikrichters.">
+        </div>
+        <div>
+            <label for="Tijdbestek">Geef aan hoe lang je per deel bezig bent in minuten: </label>
+            <br><input type="number" placeholder="Uitleg">
+            <br><input type="number" placeholder="Opdrachten">
+            <br><input type="number" placeholder="Bespreken">
+        </div>
+        <div>
+            <label for="ContextFactoren">Geef aan over hoeveel je van elk beschikt: </label>
+            <br><label>Stoelen: </label><input type="number" placeholder="Stoelen">
+            <br><label>Tafels: </label><input type="number" placeholder="Tafels">  
+            <br><label>Schriften: </label><input type="number" placeholder="Schriften">
+            <br><label>Pennen: </label><input type="number" placeholder="Pennen">
+            <br><label>Overige materialen: </label><input type="text"   placeholder="Overig">
+        </div><br>
+            <button type="button" onclick="window.location.href='lokaal.html'">Stel je lokaal samen.</button><br>
+        <p>Tijdelijke tekst: de knop staat hier omdat deelstap 2 nog ontbreekt.</p>
+        <button type="button" onclick="window.location.href='evaluatie.html'">Beëindig je les</button>
+    </form> 
+</body>
+</html>

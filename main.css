@@ -54,6 +54,15 @@ main {
     opacity: 1;
 }
 
+#textboxid
+{
+    height:150px;
+    width:735px;
+    font-size:14pt;
+    resize:none;
+}
+
+
 /* .popup{
     position: fixed;
     top: 0px;
@@ -137,3 +146,4 @@ main {
     transform:translate( -50%, -50%) scale(1);
     opacity: 1;
 } */
+

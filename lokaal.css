@@ -6,10 +6,16 @@
 
 body {
     height: 100vh;
-    background-color: #eee;
+    background-color: #f6f5f4;
     display: grid;
     place-items: center;
-font-family: poppins;
+    font-family: poppins;
+}
+
+.form {
+    background-color: #adb34b;
+    padding: 5px 10px 5px 10px;
+    border-radius: 7px;
 }
 
 main {
@@ -39,7 +45,7 @@ form button {
     background-color: transparent;
     font-size: 28px;
     cursor: pointer;
-    color: #eee;
+    color: #f6f5f4;
 }
 
 form input::-webkit-color-swatch-wrapper {
@@ -52,15 +58,15 @@ form input::-webkit-color-swatch {
 
 #list textarea{
     all: unset;
-    color: #eee;
+    color: #f6f5f4;
     font-weight: bold;
     font-size: large;
 }
 
 #list .note{
-    background-color: #814a08;
+    background-color: #6a3618;
     width: 150px;
-    border-top: 50px solid #814a08;
+    border-top: 50px solid #6a3618;
     border-radius: 10px;
     padding: 10px;
     position: absolute;

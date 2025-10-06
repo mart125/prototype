@@ -4,10 +4,29 @@ div {
 
 body {
     height: 40vh;
-    background-color: #eee;
+    background-color: #f6f5f4;
     display: grid;
     place-items: center;
     font-family: poppins;
+}
+
+.form {
+    background-color: #adb34b;
+    padding: 5px 15px 10px 15px;
+    border-radius: 7px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form1 {
+    background-color: #adb34b;
+    padding: 5px 15px 10px 15px;
+    border-radius: 7px;
+}
+
+.center {
+    justify-content: center;
+    text-align: center;
 }
 
 main {
@@ -27,7 +46,7 @@ main {
     left: 50%;
     top: 0;
     transform: translateX(-50%);
-    background-color: #000;
+    background-color: #adb34b;
     color: #fff;
     white-space: nowrap;
     padding: 10px 15px;

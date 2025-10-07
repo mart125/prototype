@@ -16,6 +16,9 @@ body {
     background-color: #adb34b;
     padding: 5px 10px 5px 10px;
     border-radius: 7px;
+    position: absolute;
+    top: 20px;
+    left: 35%;  
 }
 
 main {
@@ -61,6 +64,7 @@ form input::-webkit-color-swatch {
     color: #f6f5f4;
     font-weight: bold;
     font-size: large;
+    width: 130px;
 }
 
 #list .note{
